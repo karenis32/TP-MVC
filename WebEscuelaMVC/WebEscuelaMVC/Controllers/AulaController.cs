@@ -83,7 +83,7 @@ namespace WebEscuelaMVC.Controllers
 
         //POST Aula/Edit
         [HttpPost]
-        public ActionResult Edit(int id, [FromBody] Aula aula)
+        public ActionResult Edit(int id, Aula aula)
         {
             aula = TraerUna(id);
             if (aula == null)

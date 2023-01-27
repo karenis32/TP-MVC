@@ -119,7 +119,7 @@ namespace SLNClinica.Controllers
 
         //POST Medico/Edit
         [HttpPost]
-        public ActionResult Edit(int id, [FromBody] Medico medico)
+        public ActionResult Edit(int id, Medico medico)
         {
             medico = TraerUno(id);
             if (medico == null)
