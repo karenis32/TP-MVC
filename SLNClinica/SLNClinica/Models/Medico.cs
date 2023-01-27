@@ -18,7 +18,7 @@ namespace SLNClinica.Models
         public string Apellido { get; set; }
 
         [RegularExpression("@^[A-Z]{2}[0-9]{4}")]
-        public int Matricula { get; set; }
+        public string Matricula { get; set; }
 
     }
 }
