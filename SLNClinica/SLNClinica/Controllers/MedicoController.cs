@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SLNClinica.Data;
 using SLNClinica.Models;
 using System.Linq;
@@ -90,7 +91,7 @@ namespace SLNClinica.Controllers
             }
             else
             {
-                return View("detalle", medico);
+                return View("Details", medico);
             }
 
         }
@@ -112,7 +113,7 @@ namespace SLNClinica.Controllers
             }
             else
             {
-                return View("edit", medico);
+                return View("Edit", medico);
             }
 
         }
@@ -121,13 +122,14 @@ namespace SLNClinica.Controllers
         [HttpPost]
         public ActionResult Edit(int id, Medico medico)
         {
-            medico = TraerUno(id);
+
             if (medico == null)
             {
                 return NotFound();
             }
             else
             {
+                //context.Entry(medico).State = EntityState.Modified;
                 context.Medicos.Update(medico);
                 context.SaveChanges();
                 return RedirectToAction("Index");

@@ -17,7 +17,7 @@ namespace SLNClinica.Models
         [StringLength(50)]//view
         public string Apellido { get; set; }
 
-        [RegularExpression("@^[A-Z]{2}[0-9]{4}")]
+        //[RegularExpression("@^[A-Z]{2}[0-9]{4}")]
         public string Matricula { get; set; }
 
     }

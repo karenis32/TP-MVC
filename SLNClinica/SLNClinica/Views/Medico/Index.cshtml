@@ -1,0 +1,26 @@
+﻿@model IEnumerable<SLNClinica.Models.Medico>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+    <h2>Lista de médicos</h2>
+
+    @foreach (var item in Model)
+    {
+        @Html.ActionLink("Ver el detalle","Details","Medico", new{id = item.Id})<br />
+        @Html.ActionLink("Eliminar", "Delete", "Medico", new{id=item.Id})<br />
+        @Html.ActionLink("Editar médico", "Edit", "Medico", new{id=item.Id})
+            <h2>@Html.DisplayFor(modelItem=>item.Nombre)</h2>
+            <h2>@Html.DisplayFor(modelItem=>item.Apellido)</h2>
+            <h2>@Html.DisplayFor(modelItem=>item.Matricula)</h2>
+    }
+
+    @Html.ActionLink("Agregar un médico","Create","Medico")
+</body>
+</html>
