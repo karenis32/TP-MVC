@@ -76,7 +76,7 @@ namespace WebEscuelaMVC.Controllers
             }
             else
             {
-                return View("edit", aula);
+                return View("Edit", aula);
             }
 
         }
@@ -85,7 +85,7 @@ namespace WebEscuelaMVC.Controllers
         [HttpPost]
         public ActionResult Edit(int id, Aula aula)
         {
-            aula = TraerUna(id);
+            //aula = TraerUna(id);
             if (aula == null)
             {
                 return NotFound();
@@ -94,7 +94,7 @@ namespace WebEscuelaMVC.Controllers
             {
                 context.Aulas.Update(aula);
                 context.SaveChanges();
-                return View("Index", aula);
+                return RedirectToAction("Index");
             }
         }
 
@@ -127,7 +127,7 @@ namespace WebEscuelaMVC.Controllers
             {
                 context.Aulas.Remove(aula);
                 context.SaveChanges();
-                return View("Delete", aula);
+                return RedirectToAction("Index");
             }
 
         }
