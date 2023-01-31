@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/css/site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="principal">
+        <div id="navbar">
+            <p> Software Médicos Navbar</p>
+            <div id="links">
+                
+                    @Html.ActionLink("Home", "Index", "Home")
+                    @Html.ActionLink("Create", "Create", "Medico")
+                    @Html.ActionLink("Ir a Médicos","Index","Medico")
+
+            </div>
+        </div>
+
+    <div id="bodyid">
+        <div id="sidebarL">
+            <h1>Descripción clínica</h1>
+            <h4> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</h4>
+            <img src="~/fotos/Imagen3.jpeg" />
+        </div>
+        <div id="renderbody">
+        @RenderBody()
+
+        </div>
+
+
+         <div id="sidebarR">
+             <h2>Nuestra Clínica</h2>
+             <img src="~/fotos/Image1.jpg" />
+             <img src="~/fotos/Image2.jpg" />
+             <img src="~/fotos/Image3.jpg" />
+             
+
+        </div>
+
+    </div>
+    <div id="footer">
+
+        <h2>Contacto: info@medicos.com</h2>
+
+    </div>
+
+    </div>
+</body>
+</html>

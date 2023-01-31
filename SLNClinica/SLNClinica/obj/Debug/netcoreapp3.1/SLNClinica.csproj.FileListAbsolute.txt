@@ -302,3 +302,5 @@ C:\Users\Dudu\Desktop\Accenture Bootcamp\Curso 05\TP MVC\SLNClinica\SLNClinica\o
 C:\Users\Dudu\Desktop\Accenture Bootcamp\Curso 05\TP MVC\SLNClinica\SLNClinica\obj\Debug\netcoreapp3.1\SLNClinica.dll
 C:\Users\Dudu\Desktop\Accenture Bootcamp\Curso 05\TP MVC\SLNClinica\SLNClinica\obj\Debug\netcoreapp3.1\SLNClinica.pdb
 C:\Users\Dudu\Desktop\Accenture Bootcamp\Curso 05\TP MVC\SLNClinica\SLNClinica\obj\Debug\netcoreapp3.1\SLNClinica.genruntimeconfig.cache
+C:\Users\Dudu\Desktop\Accenture Bootcamp\Curso 05\TP MVC\SLNClinica\SLNClinica\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Dudu\Desktop\Accenture Bootcamp\Curso 05\TP MVC\SLNClinica\SLNClinica\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs

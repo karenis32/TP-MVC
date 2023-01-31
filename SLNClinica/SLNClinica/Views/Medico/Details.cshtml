@@ -1,19 +1,11 @@
 ﻿@model SLNClinica.Models.Medico;
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Details</title>
-</head>
-<body>
-
+@{
+    ViewData["Title"] = "Detail";
+}
     <h2>@Html.DisplayFor(modelItem=>modelItem.Nombre)</h2>
             <h2>@Html.DisplayFor(modelItem=>modelItem.Apellido)</h2>
             <h2>@Html.DisplayFor(modelItem=>modelItem.Matricula)</h2>
     
 
     @Html.ActionLink("Volver al index","Index","Medico")
-</body>
-</html>
