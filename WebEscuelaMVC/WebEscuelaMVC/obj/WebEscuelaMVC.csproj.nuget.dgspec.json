@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dudu\\Desktop\\Accenture Bootcamp\\Curso 05\\TP MVC\\WebEscuelaMVC\\WebEscuelaMVC\\WebEscuelaMVC.csproj": {}
+    "C:\\Users\\Ma Ry Youkai\\source\\repos\\TP-MVC\\WebEscuelaMVC\\WebEscuelaMVC\\WebEscuelaMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dudu\\Desktop\\Accenture Bootcamp\\Curso 05\\TP MVC\\WebEscuelaMVC\\WebEscuelaMVC\\WebEscuelaMVC.csproj": {
+    "C:\\Users\\Ma Ry Youkai\\source\\repos\\TP-MVC\\WebEscuelaMVC\\WebEscuelaMVC\\WebEscuelaMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dudu\\Desktop\\Accenture Bootcamp\\Curso 05\\TP MVC\\WebEscuelaMVC\\WebEscuelaMVC\\WebEscuelaMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Ma Ry Youkai\\source\\repos\\TP-MVC\\WebEscuelaMVC\\WebEscuelaMVC\\WebEscuelaMVC.csproj",
         "projectName": "WebEscuelaMVC",
-        "projectPath": "C:\\Users\\Dudu\\Desktop\\Accenture Bootcamp\\Curso 05\\TP MVC\\WebEscuelaMVC\\WebEscuelaMVC\\WebEscuelaMVC.csproj",
-        "packagesPath": "C:\\Users\\Dudu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dudu\\Desktop\\Accenture Bootcamp\\Curso 05\\TP MVC\\WebEscuelaMVC\\WebEscuelaMVC\\obj\\",
+        "projectPath": "C:\\Users\\Ma Ry Youkai\\source\\repos\\TP-MVC\\WebEscuelaMVC\\WebEscuelaMVC\\WebEscuelaMVC.csproj",
+        "packagesPath": "C:\\Users\\Ma Ry Youkai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ma Ry Youkai\\Source\\Repos\\TP-MVC\\WebEscuelaMVC\\WebEscuelaMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dudu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ma Ry Youkai\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
